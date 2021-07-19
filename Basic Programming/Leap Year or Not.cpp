@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
    int year;
-
    cout<<"Enter Year: ";
    cin>>year;
 
