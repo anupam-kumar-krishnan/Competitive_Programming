@@ -4,5 +4,5 @@ int main(){
  int num1,num2;
  cout<<"Input two numbers: "<<endl;
  cin>>num1>>num2;
- cout<<"Addition: "<<num1+num2<<endl;
+ cout<<"Addition: "<<num1+num2;
 }
