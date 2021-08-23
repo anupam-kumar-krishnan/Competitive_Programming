@@ -4,7 +4,7 @@ class Solution {
         vector<pair<int, int>> v;
         vector<int> taken(n);
 
-        // we will store all possible heights in a vector
+    
         for (int i = 0; i < n; i++) {
             if (arr[i] - k >= 0) {
                 v.push_back({arr[i] - k, i});
@@ -16,8 +16,6 @@ class Solution {
         int left = 0;
         int right = 0;
 
-        // By two pointer we will traverse v and whenever we will get a range
-        // in which all towers are included, we will update the answer.
         while (elements_in_range < n && right < v.size()) {
             if (taken[v[right].second] == 0) {
                 elements_in_range++;
