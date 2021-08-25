@@ -1,50 +1,38 @@
-class Solution {
-  public:
-    int getMinDiff(int arr[], int n, int k) {
-        vector<pair<int, int>> v;
-        vector<int> taken(n);
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n,k;
+    cin>>n;
+    cin>>k;
 
-    
-        for (int i = 0; i < n; i++) {
-            if (arr[i] - k >= 0) {
-                v.push_back({arr[i] - k, i});
-            }
-            v.push_back({arr[i] + k, i});
-        }
-        sort(v.begin(), v.end());
-        int elements_in_range = 0;
-        int left = 0;
-        int right = 0;
+    int arr[n];
+    for(int i=0;i<n;i++)
+    cin>>arr[i];
 
-        while (elements_in_range < n && right < v.size()) {
-            if (taken[v[right].second] == 0) {
-                elements_in_range++;
-            }
-            taken[v[right].second]++;
-            right++;
-        }
-        int ans = v[right - 1].first - v[left].first;
-        while (right < v.size()) {
-            if (taken[v[left].second] == 1) {
-                elements_in_range--;
-            }
-            taken[v[left].second]--;
-            left++;
+    sort(arr,arr+n);
 
-            while (elements_in_range < n && right < v.size()) {
-                if (taken[v[right].second] == 0) {
-                    elements_in_range++;
-                }
-                taken[v[right].second]++;
-                right++;
-            }
+    int small=arr[0]+k;
+    int big=arr[n-1]-k;
 
-            if (elements_in_range == n) {
-                ans = min(ans, v[right - 1].first - v[left].first);
-            } else {
-                break;
-            }
-        }
-        return ans;
+    if(small>big)
+        swap(small,big);
+
+    for(int i=1;i<n-1;i++)
+    {
+        int sub=arr[i]-k;
+        int add=arr[i]+k;
+
+        if(sub>=small || add<=big)
+                continue;
+
+        else if(big-sub<=add-small)
+                small=sub;
+
+        else
+                big=add;
     }
-};
+    cout<<min(big-small,arr[n-1]-arr[0]);
+
+    return 0;
+}
