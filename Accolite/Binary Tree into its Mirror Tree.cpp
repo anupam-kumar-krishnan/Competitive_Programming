@@ -11,8 +11,7 @@ struct Node
 
 struct Node* newNode(int data)
 {
-	struct Node* node = (struct Node*)
-						malloc(sizeof(struct Node));
+	struct Node* node = (struct Node*)malloc(sizeof(struct Node));
 	node->data = data;
 	node->left = NULL;
 	node->right = NULL;
@@ -59,14 +58,12 @@ int main()
 	root->left->left = newNode(4);
 	root->left->right = newNode(5);
 	
-	cout << "Inorder traversal of the constructed"
-		<< " tree is" << endl;
+	cout << "Inorder traversal of the constructed"<< " tree is" << endl;
 	inOrder(root);
 	
 	mirror(root);
 
-	cout << "\nInorder traversal of the mirror tree"
-		<< " is \n";
+	cout << "\nInorder traversal of the mirror tree"<< " is \n";
 	inOrder(root);
 	
 	return 0;
