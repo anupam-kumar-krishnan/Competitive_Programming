@@ -1,11 +1,15 @@
 #include<bits/stdc++.h>
 using namespace std;
+void rotate(int arr[], int n){
+	int temp = arr[n-1];
+	for(int i=n-2;i>=0;i--){
+	    arr[i+1]=arr[i];
+	}
+   arr[0]=temp;
+}
 int main()
 {
-	int t;
-	  cin>>t;
-
-	while(t--){
+	
 	int n;
 	cin>>n;
 	int a[n], i;
@@ -16,16 +20,8 @@ int main()
 	rotate(a,n);
 
 	for(i=0;i<n;i++)
-		cout<<a[i];
-	cout<<endl;
-      }	
+		cout<<a[i]<<" ";
+      
    return 0;
 }
 
-void rotate(int arr[], int n){
-	int temp = a[n-1];
-	for(int i=n-1;i>0;i--){
-	    a[i]=a[n-1];
-	}
-   a[0]=temp;
-}
