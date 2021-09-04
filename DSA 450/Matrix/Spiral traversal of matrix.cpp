@@ -5,8 +5,7 @@ using namespace std;
 #define M 4
 
 void spiralMatrixPrint(int rows, int cols, int arr[N][M])  {
-  
-  
+ 
   int top = 0, bottom = rows - 1, left = 0, right = cols - 1;
   
   
@@ -50,7 +49,6 @@ void spiralMatrixPrint(int rows, int cols, int arr[N][M])  {
 }
 
 int main() {
-  // Driver code
   int mat[N][M] = { { 1, 2, 3, 4 }, 
                   { 12, 13, 14, 5 }, 
                   { 11, 16, 15, 6 }, 
