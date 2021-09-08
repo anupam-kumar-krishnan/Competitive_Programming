@@ -41,7 +41,6 @@ void spiralMatrixPrint(int rows, int cols, int arr[N][M])  {
       for (int i = bottom; i >= top; --i) {
           cout<< arr[i][left] << " ";
       }
-      
       ++left;
       dir = 1;
     }
