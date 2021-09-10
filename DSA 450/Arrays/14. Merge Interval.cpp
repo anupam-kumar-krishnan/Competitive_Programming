@@ -13,7 +13,8 @@ public:
             if(it[0] <= tempInterval[1]){
               tempInterval[1] = max(it[1], tempInterval[1]);  
             }
-            else{
+            else
+            {
                 mergedIntervals.push_back(tempInterval);
                 tempInterval = it;
             }
