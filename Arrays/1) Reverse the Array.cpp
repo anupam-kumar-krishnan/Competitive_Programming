@@ -14,7 +14,6 @@ void rvereseArray(int arr[], int start, int end)
 	} 
 }	 
 
-
 void printArray(int arr[], int size)
 {
 for (int i = 0; i < size; i++)
