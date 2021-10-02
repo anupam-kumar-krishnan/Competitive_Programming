@@ -29,12 +29,16 @@ It is open to everyone in our global community. Whether you’re a developer, st
 - You can sign up anytime between October 1 and October 31.
 ***
 
+# 💻 _What Should I Contribute?_
+> Any program in C++ is accepted
+
 # 👕 _Why Should I Contribute?_
 Hacktoberfest has a simple and plain motto
 > Support open source with meaningful PRs and earn a limited edition T-shirt!
 
 So, yes! You can win a T-Shirt and few awesome stickers to attach on your laptop. On plus side, you will get into beautiful world of open source.<br>
 Working with open source project is a rewarding experience that allows you to practice your talent, collaborate with and learn from others, and give back to the developer community. 
+
 ### _NOTE:_
 * making four (4) meaningful contributions to open source projects will qualify you for prizes
 * Scripts to be added in there respective folder with proper doumentaion.
