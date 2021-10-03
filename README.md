@@ -15,7 +15,7 @@ _<h1 align="center"> Hacktoberfest2021 🎉</h1>_
 <br>
 
 This repository is open to all members of the GitHub community. Any member can contribute
-[Hacktoberfest PR 2021](https://github.com/anupam-kumar-krishnan/Competitive---Programming-DSA-450)
+[Hacktoberfest PR 2021](https://github.com/anupam-kumar-krishnan/Competitive---Programming-DSA-450/pulls)
 
 ***
 
