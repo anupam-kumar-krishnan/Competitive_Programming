@@ -40,7 +40,7 @@ It is open to everyone in our global community. Whether you’re a developer, st
 > 4. Make a PR🔁
 ****
 
-# 🔥 Woah You have Successfully Contributed in Hacktoberfest 2021
+## 🔥 _Woah You have Successfully Contributed in Hacktoberfest 2021_
 
 # 👕 _Why Should I Contribute?_
 Hacktoberfest has a simple and plain motto
