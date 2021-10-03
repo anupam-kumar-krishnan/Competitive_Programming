@@ -30,7 +30,7 @@ It is open to everyone in our global community. Whether you’re a developer, st
 ***
 
 # 💻 _What Should I Contribute?_
-> Any program in C++ is accepted
+> Any program in C++ or in any other language is accepted
 
 # 👕 _Why Should I Contribute?_
 Hacktoberfest has a simple and plain motto
