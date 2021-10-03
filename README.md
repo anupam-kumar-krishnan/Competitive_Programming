@@ -14,7 +14,7 @@ _<h1 align="center"> Hacktoberfest2021🚀🚀</h1>_
 </p>
 <br>
 
-This repository is open to all members of the GitHub community. Any member can contribute
+This repository is open to all members of the GitHub community. Any member can contribute. Contribute according to the steps given below
 [Hacktoberfest PR 2021](https://github.com/anupam-kumar-krishnan/Competitive---Programming-DSA-450/pulls)
 
 ***
@@ -32,6 +32,16 @@ It is open to everyone in our global community. Whether you’re a developer, st
 # 💻 _What Should I Contribute?_
 > Any program in C++ or in any other language is accepted
 
+# 🚀 _Steps to contribute_
+
+> 1. Fork this repo🍴
+> 2. Add any code in any languge💻
+> 3. Star⭐ this repo
+> 4. Make a PR🔁
+****
+
+# 🔥 Woah You have Successfully Contributed in Hacktoberfest 2021
+
 # 👕 _Why Should I Contribute?_
 Hacktoberfest has a simple and plain motto
 > Support open source with meaningful PRs and earn a limited edition T-shirt!
@@ -42,6 +52,7 @@ Working with open source project is a rewarding experience that allows you to pr
 ### _NOTE:_
 * making four (4) meaningful contributions to open source projects will qualify you for prizes
 * Scripts to be added in there respective folder with proper doumentaion.
+* 
 ***
 ## _THIS REPO IS FOR BEGINNERS TO CONTRIBUTE IN HACKTOBERFEST 2021_
 ***
