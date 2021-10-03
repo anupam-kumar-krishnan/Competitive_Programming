@@ -33,7 +33,7 @@ It is open to everyone in our global community. Whether you’re a developer, st
 > Any program in C++ or in any other language is accepted
 
 # 🚀 _Steps to contribute_
-
+>
 > 1. Fork this repo🍴
 > 2. Add any code in any languge💻
 > 3. Star⭐ this repo
@@ -56,4 +56,3 @@ Working with open source project is a rewarding experience that allows you to pr
 ***
 ## _THIS REPO IS FOR BEGINNERS TO CONTRIBUTE IN HACKTOBERFEST 2021_
 ***
-## _Please Star⭐ The Repo if you like✨_
