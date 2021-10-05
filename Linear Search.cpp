@@ -1,34 +1,29 @@
-#include < iostream >
-  using namespace std;
- 
+#include <iostream>
+using namespace std;
+
 void linearSearch(int a[], int n) {
-  int temp = -1;
- 
-  for (int i = 0; i < 5; i++) {
-    if (a[i] == n) {
-      cout << "Element found at position: " << i + 1 << endl;
-      temp = 0;
-      break;
+  bool temp = -1;
+  for (int i = 0; i < n; i++) {
+    if (a[i] == n){
+        cout << "Element found at position: " << i + 1 << endl;
+        temp = 0;
+        break;
     }
   }
- 
-  if (temp == -1) {
-    cout << "No Element Found" << endl;
-  }
- 
+  if (temp == -1)
+    cout << "Element not Found" << endl;
 }
  
 int main() {
-  int arr[5];
-  cout << "Please enter 5 elements of the Array" << endl;
-  for (int i = 0; i < 5; i++) {
+  int n,num;
+  cout << "Please enter the size of Array" << endl;
+  cin>>n;
+  int*arr=new int(n);
+  cout << "Please enter "<<n<<" elements of the Array" << endl;
+  for (int i = 0; i < n; i++) 
     cin >> arr[i];
-  }
   cout << "Please enter an element to search" << endl;
-  int num;
   cin >> num;
- 
   linearSearch(arr, num);
- 
   return 0;
 }
