@@ -30,17 +30,17 @@ It is open to everyone in our global community. Whether you’re a developer, st
 ***
 
 # 💻 _What Should I Contribute?_
-> Any program in C++ or in any other language is accepted
+<strong>_Any program in C++ or in any other language is accepted_</strong>
 
 # _Languages Mainly📕📗📘📙_
 <img src="https://img.shields.io/badge/C-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/C%2B%2B-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/python-ff6600?style=for-the-badge&logo=python&logoColor=white"> &nbsp;<img src="https://img.shields.io/badge/Java-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-<br>
+<br><br>
 # 🚀 _Steps to contribute_
->
-> 1. Fork this repo🍴
-> 2. Add any code in any langauge💻
-> 3. Star⭐ this repo
-> 4. Make a PR🔁
+
+### <b>_1. Fork this repo🍴_</b>
+### <b>_2. Add any code in any langauge💻_ </><b>
+### <b>_3. Star⭐ this repo_</b>
+### <b>_4. Make a PR🔁_</b>
 ****
 
 ## 🔥 _Woah You have Successfully Contributed in Hacktoberfest 2021_
