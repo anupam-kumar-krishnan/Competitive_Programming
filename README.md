@@ -15,7 +15,7 @@ _<h1 align="center"> Hacktoberfest2021🚀🚀</h1>_
 <br>
 
 This repository is open to all members of the GitHub community. Any member can contribute. Contribute according to the steps given below
-[Hacktoberfest Rule 2021](https://github.com/anupam-kumar-krishnan/Competitive---Programming-DSA-450/issues/18)
+[Hacktoberfest Rules to Contribute in this Repo 2021](https://github.com/anupam-kumar-krishnan/Competitive---Programming-DSA-450/issues/18)
 
 ***
 
