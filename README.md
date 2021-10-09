@@ -37,7 +37,7 @@ It is open to everyone in our global community. Whether you’re a developer, st
 # 🚀 _Steps to contribute_
 
 ### <b>_1. Fork this repo🍴_</b>
-### <b>_2. Add any code in any langauge💻_ </><b>
+### <b>_2. Add any code in any language💻_ </><b>
 ### <b>_3. Star⭐ this repo_</b>
 ### <b>_4. Make a PR🔁_</b>
 <br>
