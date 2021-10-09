@@ -32,6 +32,9 @@ It is open to everyone in our global community. Whether you’re a developer, st
 # 💻 _What Should I Contribute?_
 > Any program in C++ or in any other language is accepted
 
+# _Languages Mainly📕📗📘📙_
+<img src="https://img.shields.io/badge/C-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/C%2B%2B-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/python-ff6600?style=for-the-badge&logo=python&logoColor=white"> &nbsp;<img src="https://img.shields.io/badge/Java-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+<br>
 # 🚀 _Steps to contribute_
 >
 > 1. Fork this repo🍴
