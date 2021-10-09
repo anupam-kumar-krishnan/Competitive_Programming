@@ -28,7 +28,6 @@ It is open to everyone in our global community. Whether you’re a developer, st
 - Any code is accepted in any language
 - You can sign up anytime between October 1 and October 31.
 ***
-
 # 💻 _What Should I Contribute?_
 <strong>_Any program in C++ or in any other language is accepted_</strong>
 
@@ -41,7 +40,14 @@ It is open to everyone in our global community. Whether you’re a developer, st
 ### <b>_2. Add any code in any langauge💻_ </><b>
 ### <b>_3. Star⭐ this repo_</b>
 ### <b>_4. Make a PR🔁_</b>
-****
+<br>
+
+# _📌Please Note:_
+## _Add Codes in Relatable Folder📁_<br>
+### _📁All Languages : C++, Java, Python......_<br>
+### _📁All Data Structures : Array, Tree, Graph....._<br>
+### _📁All Algorithms: Searching, Sorting,...._<br>
+<br>
 
 ## 🔥 _Woah You have Successfully Contributed in Hacktoberfest 2021_
 
