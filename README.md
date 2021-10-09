@@ -48,7 +48,7 @@ It is open to everyone in our global community. Whether you’re a developer, st
 ### _📁All Data Structures : Array, Tree, Graph....._<br>
 ### _📁All Algorithms: Searching, Sorting,...._<br>
 <br>
-
+### Not following the folder structure will lead to Close PR 
 ## 🔥 _Woah You have Successfully Contributed in Hacktoberfest 2021_
 
 # 👕 _Why Should I Contribute?_
