@@ -49,7 +49,7 @@ It is open to everyone in our global community. Whether you’re a developer, st
 ### _📁All Algorithms: Searching, Sorting,...._<br>
 <br>
 
-## 🔴 _Note: Not following the folder structure will lead to Close PR_ 🔴<br>
+## 🔴 _Note: Not following the folder structure will lead in Closing PR_ 🔴<br>
 ## _Woah You have Successfully Contributed in Hacktoberfest 2021_ 🔥
 
 # 👕 _Why Should I Contribute?_
