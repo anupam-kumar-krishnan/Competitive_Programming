@@ -43,7 +43,7 @@ It is open to everyone in our global community. Whether you’re a developer, st
 <br>
 
 # _📌Please Note:_
-## _Add Codes in Relatable Folder📁_<br>
+## _Add Codes in Respective Folder📁_<br>
 ### _📁All Languages : C++, Java, Python......_<br>
 ### _📁All Data Structures : Array, Tree, Graph....._<br>
 ### _📁All Algorithms: Searching, Sorting,...._<br>
