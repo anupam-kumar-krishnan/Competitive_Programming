@@ -1,0 +1,19 @@
+class Solution {
+public:
+    vector<int> searchRange(vector<int>& nums, int t) {
+        int low=-1,high=-1;
+        int i=0,j=nums.size()-1,mid=(i+j)/2;
+        while(i<=j){
+            if(nums[mid]==t){
+                low=high=mid;
+                while(low>0 && nums[low-1]==t) low--;
+                while(high<nums.size()-1 && nums[high+1]==t)high++;
+                break;
+            }
+            else if(nums[mid]>t) j--;
+            else if(nums[mid]<t) i++;
+            mid=(i+j)/2;
+        }
+        return{low,high};
+    }
+};
