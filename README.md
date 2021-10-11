@@ -1,4 +1,4 @@
-_<h1 align="center"> Hacktoberfest2021🚀🚀</h1>_
+_<h1 align="center"> 🔆Hacktoberfest2021🔆</h1>_
 
 ![hack](https://user-images.githubusercontent.com/42711978/135657354-05005b9f-d686-41a0-8d50-219d57a9be83.png)
 
@@ -19,7 +19,7 @@ This repository is open to all members of the GitHub community. Any member can c
 
 ***
 
-## _What is Hacktoberfest?_
+## _What is Hacktoberfest?🚀_
 
 It is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
 
@@ -28,13 +28,13 @@ It is open to everyone in our global community. Whether you’re a developer, st
 - Any code is accepted in any language
 - You can sign up anytime between October 1 and October 31.
 ***
-# 💻 _What Should I Contribute?_
+# 💻 _What Should I Contribute?🤔_
 <strong>_Any program in C++ or in any other language is accepted_</strong>
 
 # _Languages Used📕📗📘📙_
 <img src="https://img.shields.io/badge/C-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/C%2B%2B-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/python-ff6600?style=for-the-badge&logo=python&logoColor=white"> &nbsp;<img src="https://img.shields.io/badge/Java-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">
 <br><br>
-# 🚀 _Steps to contribute_
+# 🚀 _Steps to contribut🎉_
 
 ### <b>_1. Fork this repo🍴_</b>
 ### <b>_2. Add any code in any language💻_ </><b>
@@ -50,7 +50,7 @@ It is open to everyone in our global community. Whether you’re a developer, st
 <br>
 
 ## 🔴 _Note: Not following the folder structure will lead in Closing PR_ 🔴<br>
-## _Woah You have Successfully Contributed in Hacktoberfest 2021_ 🔥
+## _Woah🎊 You have Successfully✅ Contributed🎇 in Hacktoberfest 2021_ 🔥
 
 # 👕 _Why Should I Contribute?_
 Hacktoberfest has a simple and plain motto
@@ -64,6 +64,6 @@ Working with open source project is a rewarding experience that allows you to pr
 * Scripts to be added in there respective folder with proper doumentaion.
 * Contribute according to the steps provided
 ***
-## _THIS REPO IS FOR BEGINNERS TO CONTRIBUTE IN HACKTOBERFEST 2021_
+## _THIS REPO IS FOR BEGINNERS TO CONTRIBUTE IN HACKTOBERFEST 2021😀_
 ***
 # _Please Star⭐ this Repo if you like_
