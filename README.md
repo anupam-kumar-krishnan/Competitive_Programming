@@ -34,7 +34,7 @@ It is open to everyone in our global community. Whether you’re a developer, st
 <strong>_Any program in C++ or in any other language is accepted_</strong>
 <br><br>
 ## _Languages Used📕📗📘📙_
-<img src="https://img.shields.io/badge/C-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/C%2B%2B-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/python-ff6600?style=for-the-badge&logo=python&logoColor=white"> &nbsp;<img src="https://img.shields.io/badge/Java-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+<img src="https://img.shields.io/badge/C-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/C%2B%2B-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/python-ff6600?style=for-the-badge&logo=python&logoColor=white"> &nbsp;<img src="https://img.shields.io/badge/Java-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white"> &nbsp;<img src="https://img.shields.io/badge/Golang-ff6600?style=for-the-badge&logo=Go&logoColor=white">
 <br><br>
 ## 🚀 _Steps to Contribute🎉_
 
