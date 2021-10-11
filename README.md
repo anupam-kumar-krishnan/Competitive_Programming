@@ -52,6 +52,7 @@ It is open to everyone in our global community. Whether you’re a developer, st
 <br>
 
 ## 🔴 _Note: Not following the folder structure will lead in Closing PR_ 🔴<br>
+## 📌📌 _Only one PR allowed per User_
 ## _Woah🎊 You have Successfully✅ Contributed🎇 in Hacktoberfest 2021_ 🔥
 
 # 👕 _Why Should I Contribute?_
