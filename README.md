@@ -22,31 +22,33 @@ This repository is open to all members of the GitHub community. Any member can c
 ## _What is Hacktoberfest?🚀_
 
 It is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
+<b>
+- _Hacktoberfest is a celebration open to everyone in our global community_
+- _Pull requests can be made in the respective folder where you want to contribute_
+- _Any code is accepted in any language_
+- _You can sign up anytime between October 1 and October 31_
+<b>
 
-- Hacktoberfest is a celebration open to everyone in our global community.
-- Pull requests can be made in any folder.
-- Any code is accepted in any language
-- You can sign up anytime between October 1 and October 31.
-***
-# 💻 _What Should I Contribute?🤔_
+  
+## 💻 _What Should I Contribute?🤔_
 <strong>_Any program in C++ or in any other language is accepted_</strong>
-
-# _Languages Used📕📗📘📙_
+<br><br>
+## _Languages Used📕📗📘📙_
 <img src="https://img.shields.io/badge/C-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/C%2B%2B-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/python-ff6600?style=for-the-badge&logo=python&logoColor=white"> &nbsp;<img src="https://img.shields.io/badge/Java-ff6600?style=for-the-badge&logo=c%2B%2B&logoColor=white">
 <br><br>
-# 🚀 _Steps to contribut🎉_
+## 🚀 _Steps to Contribute🎉_
 
-### <b>_1. Fork this repo🍴_</b>
-### <b>_2. Add any code in any language💻_ </><b>
-### <b>_3. Star⭐ this repo_</b>
-### <b>_4. Make a PR🔁_</b>
+#### <b>_1. Fork this repo🍴_</b>
+#### <b>_2. Add any code in any language💻_ </><b>
+#### <b>_3. Star⭐ this repo_</b>
+#### <b>_4. Make a PR🔁_</b>
 <br>
 
 # _📌Please Note:_
-## _Add Codes in Respective Folder📁_<br>
-### _📁All Languages : C++, Java, Python......_<br>
-### _📁All Data Structures : Array, Tree, Graph....._<br>
-### _📁All Algorithms: Searching, Sorting,...._<br>
+### _Add Codes in Respective Folder📁_
+#### _📁All Languages : C++, Java, Python......_<br>
+#### _📁All Data Structures : Array, Tree, Graph....._<br>
+#### _📁All Algorithms: Searching, Sorting,...._<br>
 <br>
 
 ## 🔴 _Note: Not following the folder structure will lead in Closing PR_ 🔴<br>
