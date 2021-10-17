@@ -1,0 +1,65 @@
+/*
+Given number of pages in n different books and m students. The books are arranged in ascending order of number of pages. Every student is assigned to read some consecutive books. The task is to assign books in such a way that the maximum number of pages assigned to a student is minimum. 
+Example : 
+
+
+Input : pages[] = {12, 34, 67, 90}
+        m = 2
+Output : 113
+Explanation:
+There are 2 number of students. Books can be distributed 
+in following fashion : 
+  1) [12] and [34, 67, 90]
+      Max number of pages is allocated to student 
+      2 with 34 + 67 + 90 = 191 pages
+  2) [12, 34] and [67, 90]
+      Max number of pages is allocated to student
+      2 with 67 + 90 = 157 pages 
+  3) [12, 34, 67] and [90]
+      Max number of pages is allocated to student 
+      1 with 12 + 34 + 67 = 113 pages
+
+Of the 3 cases, Option 3 has the minimum pages = 113.
+*/
+
+
+bool isValid(int arr[], int n, int m, int max) {
+
+	int student = 1; // 1st student
+	int sum = 0; // total pages student have
+	for(int i = 0; i < n; i++) {
+		sum += arr[i];
+		if(sum > max) {
+		student++;
+		sum = arr[i];
+		}
+		if(student > m)
+		return false;
+	}
+	return true;
+
+}
+
+int findPages(int arr[], int n, int m)
+{ 
+	if(n < m) return -1;
+	int start = -1; // max
+	int end = 0; // total
+	for(int i = 0; i < n; i++) {
+		start = max(arr[i],start);
+		end += arr[i];
+	}
+	int ans = -1;
+	int mid;
+	while(start <= end) { // binary search
+		mid = start + (end - start) / 2;
+		if(isValid(arr, n, m, mid)) {
+		ans = mid;
+		end = mid - 1;
+		}
+		else {
+		start = mid + 1;
+		}
+	}
+	return ans;
+}
