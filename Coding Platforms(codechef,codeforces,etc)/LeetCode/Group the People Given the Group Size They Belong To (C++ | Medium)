@@ -1,0 +1,22 @@
+class Solution {
+public:
+    vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
+    vector<vector<int>> v(groupSizes.size()+1);
+    vector<vector<int>> ans;
+     for(int i=0;i<groupSizes.size();i++){
+         if(v[groupSizes[i]].size()==groupSizes[i]){    // If the current group is full then include that into the final answer and clear space for new group to be made ahead.
+             ans.push_back(v[groupSizes[i]]);
+            v[groupSizes[i]].clear();
+         }
+         v[groupSizes[i]].push_back(i);
+     }  
+  for(auto x:v){
+      if(x.size()!=0)ans.push_back(x);  
+  }
+    
+    return ans;
+    
+    }
+};
+
+//Author: _harshdubey(leetcode)
