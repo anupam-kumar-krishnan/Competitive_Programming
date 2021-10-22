@@ -1,3 +1,4 @@
+//Problem Statement : [LUCKYNUM] (https://www.codechef.com/SNCKQL21/problems/LUCKYNUM)
 #include <iostream>
 using namespace std;
 
