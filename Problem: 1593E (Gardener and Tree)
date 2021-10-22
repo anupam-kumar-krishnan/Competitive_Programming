@@ -1,0 +1,125 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+#define int long long int
+const int nax = 200010;
+const int mod = 998244353;
+
+int pre[100];
+
+void calc()
+{
+    pre[0] = 1;
+    for(int i=1;i<nax;i++)
+    {
+        pre[i] = (pre[i-1]*i)%mod;
+    }
+}
+
+int power(int a, int b)    //a is base, b is exponent
+{
+    if (b == 0)
+        return 1;
+    if (b == 1)
+        return a;
+    if (b % 2 == 1)
+        return (power(a, b - 1) * a) % mod;
+    int q = power(a, b / 2);
+    return (q * q) % mod;
+}
+
+int gcd(int a, int b)
+{
+    if (b == 0)
+        return a;
+    return gcd(b, a % b);
+     
+}
+
+int choose(int n,int r)
+{
+    if(n<r || r==0)
+    {
+        if(n<r)
+            return 0;
+        else
+            return 1;
+    }
+    return ((power(pre[r],mod-2)*pre[n])%mod * power(pre[n-r],mod-2)%mod)%mod;
+}
+
+const int mx = 400005;
+vector<int> ad[mx];
+
+signed main()
+{
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
+    int t;
+    cin >> t;
+    int tc = 1;
+    while(t--)
+    {
+//        cout << "Case #" << tc << ": ";
+        int n,k,x,y;
+        cin >> n >> k;
+        for(int i=0;i<=n;i++)
+            ad[i].clear();
+        unordered_map<int,int> mp;
+        for(int i=0;i<n-1;i++)
+        {
+            cin >> x >> y;
+            x-=1;
+            y-=1;
+            ad[x].push_back(y);
+            ad[y].push_back(x);
+            mp[x]+=1;
+            mp[y]+=1;
+        }
+        bool dekha[n];
+        int sol = n;
+        memset(dekha,false,sizeof(dekha));
+        queue<int> travel;
+        for(int i=0;i<n;i++)
+        {
+            if(mp[i]<=1)
+            {
+                travel.push(i);
+            }
+        }
+        for(int i=0;i<n;i++)
+        {
+            if(mp[i]<2)
+                dekha[i] = true;
+        }
+        for(;k>0;k--)
+        {
+            if(sol<1)
+                break;
+            queue<int> temp;
+            while(travel.size())
+            {
+                int fr = travel.front();
+                sol-=1;
+                travel.pop();
+                for(int x:ad[fr])
+                {
+                    mp[x]-=1;
+                    if((mp[x]==1 || mp[x]==0) && !dekha[x])
+                    {
+                        temp.push(x);
+                        dekha[x] = true;
+                    }
+                }
+            }
+            travel = temp;
+        }
+        cout << sol << "\n";
+        tc++;
+    }
+    return 0;
+}
+
+
