@@ -6,7 +6,8 @@ public:
         
         vector<int> v;
         
-        while(s<e){
+        while(s<e)
+        {
             v.push_back(nums[s]);
             v.push_back(nums[n]);
             s++; 
