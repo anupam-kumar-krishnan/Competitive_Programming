@@ -1,0 +1,50 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int LongestIncreasingSubsequence(vector<int>& nums) 
+{
+    int ans = 1;
+    int n = nums.size();
+    int i=1;
+    vector<int> v;
+    v.push_back(nums[0]);
+    while(i<n)
+    {
+        if(nums[i]>v.back())
+        {
+            ans++;
+            v.push_back(nums[i]);
+        }
+        else
+        {
+            auto it = lower_bound(v.begin(),v.end(),nums[i]);
+            *it = nums[i];
+        }
+        i++;
+    }
+    return ans;
+    }
+
+int main() 
+{    
+    #ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    #endif
+    int tc;
+    cin>>tc;
+    while(tc--)
+    {
+        int n;
+        cin>>n;
+        vector<int> vec(n);
+        for(int i=0;i<n;i++)
+        {
+            cin>>vec[i];
+        }
+        cout<<LongestIncreasingSubsequence(vec)<<endl;
+    }
+       
+    return 0;
+}
+
