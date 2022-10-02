@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int coinChange(vector<int>& coins, int am) {
+        //int ans = INT_MAX;
+        int n = coins.size();
+        vector<int> dp(am+1,10001);
+        dp[0] = 0;
+        for(int i=0;i<n;i++)
+        {
+            for(int j=coins[i];j<=am;j++)
+                dp[j] = min(dp[j],1+dp[j-coins[i]]);
+        }
+        return (dp[am]<=am)?dp[am]:-1;
+    }
+
+int main() 
+{    
+    #ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    #endif
+    int tc;
+    cin>>tc;
+    while(tc--)
+    {
+        int n;
+        cin>>n;
+        vector<int> vec(n);
+        for(int i=0;i<n;i++)
+        {
+            cin>>vec[i];
+        }
+        int amount;
+        cin>>amount;
+        cout<<coinChange(vec,amount)<<endl;
+    }
+       
+    return 0;
+}
+
