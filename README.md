@@ -14,7 +14,7 @@ _<h1 align="center"> Hacktoberfest 2022</h1>_
 <br>
 
 This repository is open to all members of the GitHub community. Any member can contribute. Contribute according to the steps given below
-[Hacktoberfest Rules to Contribute in this Repo 2021](https://github.com/anupam-kumar-krishnan/Competitive---Programming-DSA-450/issues/18)
+[Hacktoberfest Rules to Contribute in this Repo 2022](https://github.com/anupam-kumar-krishnan/Competitive---Programming-DSA-450/issues/18)
 
 ***
 
@@ -52,7 +52,7 @@ _It is open to everyone in our global community. Whether you’re a developer, s
 
 ## 🔴 _Note: Not following the folder structure will lead in Closing PR_ 🔴<br>
 ## 📌📌 _Only one PR allowed per User_
-## _Woah🎊 You have Successfully✅ Contributed🎇 in Hacktoberfest 2021_ 🔥
+## _Woah🎊 You have Successfully✅ Contributed🎇 in Hacktoberfest 2022_ 🔥
 
 # 👕 _Why Should I Contribute?_
 Hacktoberfest has a simple and plain motto
@@ -66,7 +66,7 @@ Working with open source project is a rewarding experience that allows you to pr
 * Scripts to be added in there respective folder with proper doumentaion.
 * Contribute according to the steps provided
 ***
-## _THIS REPO IS FOR BEGINNERS TO CONTRIBUTE IN HACKTOBERFEST 2021😀_
+## _THIS REPO IS FOR BEGINNERS TO CONTRIBUTE IN HACKTOBERFEST 2022😀_
 ***
 # _Thank You For Contributing_ ⭐🚀✨🌠
    
