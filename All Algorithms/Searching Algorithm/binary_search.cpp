@@ -9,7 +9,7 @@ int binarySearch(int arr[], int n, int key)
 
     while (s <= e)
     {
-        int mid = (s + e) / 2;
+        int mid =s+(e-s)/2; //to be in the int range
 
         if (arr[mid] == key)
         {
@@ -26,7 +26,7 @@ int binarySearch(int arr[], int n, int key)
             s = mid + 1;
         }
     }
-
+    mid=s+(e-s)/2;
     return -1;
 }
 
