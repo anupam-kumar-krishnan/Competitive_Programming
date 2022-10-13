@@ -8,6 +8,9 @@ _<h1 align="center"> Hacktoberfest 2022 🌐</h1>_
    <img alt="GitHub forks" src="https://img.shields.io/github/forks/anupam-kumar-krishnan/Competitive---Programming-DSA-450"></a>
    <img alt="GitHub stars" src="https://img.shields.io/github/stars/anupam-kumar-krishnan/Competitive---Programming-DSA-450"></a>
    <img alt="GitHub issues" src="https://img.shields.io/github/issues/anupam-kumar-krishnan/Competitive---Programming-DSA-450"></a>
+   <img src="https://img.shields.io/badge/hacktoberfest-2022-blueviolet" alt="Hacktober Badge"/>
+   <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
+   <a href="https://github.com/anupam-kumar-krishnan"><img src="https://img.shields.io/badge/Contributions-welcome-green.svg?style=flat&logo=git" alt="Contributions" /></a>
 
 </p>
 <br>
