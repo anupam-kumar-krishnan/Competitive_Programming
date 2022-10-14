@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        
+        class Info {
+            constructor(sname, rno, sclass, fa_marks) {
+                this.name = sname;
+                this.roll = rno;
+                this.class = sclass;
+                this.marks = fa_marks;
+            }
+            disp(){
+                return this.name + ":" + this.roll + ":" + this.class + ":" + this.marks;
+
+            }
+        }
+            let s1 = new Info("Aman", 2110990077, "g2", 55);
+            console.log(s1.disp())
+            let s2 = new Info("Ajay", 2110990065, "g1", 89);
+            console.log(s2.disp())
+            let s3 = new Info("Akash", 2110990156, "g3", 78);
+            console.log(s3.disp())
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function student(sname, rno, sclass, fa_marks) {
+                this.name = sname;
+                this.roll = rno;
+                this.class = sclass;
+                this.marks = fa_marks;
+                this.dispName = function () {
+                return this.name + " : " + this.roll + " : " + this.class + " : " + this.marks;
+            }
+        }
+        const aman = new student("Aman", 2110990077, "g2", 55);
+        const suman = new student("Ajay", 2110990077, "g2", 55);
+        const rajiv = new student("Aksh", 2110990077, "g2", 55);
+        console.log(aman.name);
+        console.log(rajiv.name);
+        console.log(aman.dispName());
+        console.log(suman.dispName());
+
+    </script>
+
+</body>
+
+</html>
