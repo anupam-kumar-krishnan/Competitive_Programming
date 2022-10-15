@@ -1,0 +1,97 @@
+#include <stdio.h>
+#include<stdlib.h>
+struct node
+{
+    struct node *next;
+    int data;
+};
+void push(struct node**);
+void pop(struct node**);
+void display(struct node*);
+void peek(struct node*);
+int main()
+{
+    struct node *top = 0;
+    int choice;
+    printf("Enter 1 to Push\nEnter 2 for Pop\nEnter 3 for Display\nEnter 4 for Peek\nEnter 5 for Exit\n");
+    do
+    {
+        printf("\nEnter you choice: ");
+        scanf("%d", &choice);
+        switch (choice)
+        {
+        case 1:
+             push(&top);
+            break;
+
+        case 2:
+            if (top == 0)
+            {
+                printf("Stack is Empty");
+                break;
+            }
+            else
+            {
+                pop(&top);
+                break;
+            }
+
+        case 3: if(top==0)
+        {
+            printf("Stack is Empty");
+            break;
+        }
+        else
+        {
+            display(top);
+            break;
+        }
+
+        case 4: if(top==0)
+        {
+            printf("Stack is Empty");
+            break;
+        }
+        else
+        {
+            peek(top);
+        }
+
+        case 5: break;
+
+        default: printf("Invalid Choice");
+        }
+    }while(choice!=5);
+}
+void push(struct node **top)
+{
+    struct node* newnode;
+    newnode=(struct node*)malloc(sizeof(struct node));
+    printf("Enter the data: ");
+    scanf("%d",&newnode->data);
+    newnode->next=(*top);
+    (*top)=newnode;
+    
+}
+void pop(struct node  **top)
+{
+    printf("The popped element is %d",(*top)->data);
+    struct node *temp=(*top);
+    (*top)=(*top)->next;
+    free(temp);
+}
+
+void display(struct node* top)
+{
+    struct node *temp=top;
+    printf("The elements in the stack are: ");
+    while(temp!=0)
+    {
+        printf("%d ",temp->data);
+        temp=temp->next;
+    }
+}
+void peek(struct node* top)
+{
+    printf("The topmost element is %d",top->data);
+}
