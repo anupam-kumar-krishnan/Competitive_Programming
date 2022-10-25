@@ -1,0 +1,14 @@
+def maxDepth(self, root):
+        if root == None:
+            return 0
+        depth = 0
+        stack = [root]
+        while stack:
+            next_level = []
+            while stack:
+                node = stack.pop()
+                if node.children:
+                    next_level += node.children
+            stack = next_level
+            depth += 1
+        return depth
