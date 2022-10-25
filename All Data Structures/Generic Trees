@@ -12,4 +12,4 @@ class Solution:
                 node = queue.popleft()
                 level.append(node.val)
                 queue += node.children
-            yield leve
+            yield level
