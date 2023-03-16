@@ -1,4 +1,4 @@
-# _Competitive_Programming_
+# _Competitive Programming_
 ## _Programming👨‍💻  Questions on_ 
 - <b>_BinarySearch_</b>
 - <b>_LeetCode_</b>
