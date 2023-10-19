@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int t;
+    float A, B, X, Y;
+    scanf("%d", &t);
+    while (t--)
+    {
+        scanf("%f%f%f%f", &A, &B, &X, &Y);
+        if ((A/X) < (B / Y))
+            printf("CHEF\n");
+        else if ((B / Y) == (A / X))
+            printf("BOTH\n");
+        else if((B/Y)<(A/X))
+            printf("CHEFINA\n");
+    }
+    return 0;
+}
