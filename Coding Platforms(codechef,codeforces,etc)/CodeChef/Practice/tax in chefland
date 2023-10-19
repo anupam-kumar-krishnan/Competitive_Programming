@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int t, X;
+    cin >> t;
+    while (t--)
+    {
+        cin >> X;
+        if (X > 100)
+            cout << X - 10 << endl;
+        else
+            cout << X << endl;
+    }
+    return 0;
+}
