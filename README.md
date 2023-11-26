@@ -1,5 +1,5 @@
 # _Competitive Programming_
-# _⚠This repository is excluded from participating in Hacktoberfest 2023‼️⚠_
+
 ## _Programming👨‍💻  Questions on_ 
 - <b>_BinarySearch_</b>
 - <b>_LeetCode_</b>
